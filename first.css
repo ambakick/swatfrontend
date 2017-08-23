@@ -1,0 +1,203 @@
+#left {
+    top: 0%;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    float: left;
+
+    background-color: #212F3D;
+   opacity: 0.9;
+   filter: alpha(opacity=10);
+
+
+}
+
+#right {
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: =black;
+    color: yellow;
+}
+#answer
+{
+  position: relative;
+  padding-left: 80px;
+  width:500px;
+  bottom:0;
+}
+.animate{
+  !border: 1px solid green;
+border: 1px solid #000;
+-webkit-animation: animate_bg 5s;
+animation: animate_bg 5s;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+}
+@keyframes animate_bg {
+    0%   {background:red;}
+    25% {background: yellow;}
+    50%  {background:green;}
+    100% {background:blue;}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:red;}
+    25% {background: yellow;}
+    50%  {background:green;}
+    100% {background:blue;}
+}
+#main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    !margin: auto;
+}
+
+#table-div {
+    !border: 1px solid blue;
+    display: block;
+}
+
+#board{
+    margin: auto;
+    margin-top: 5%
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.my-legend {
+    display: block;
+    !border: 1px solid blue;
+    position: relative;
+    padding-top: 20px;
+
+}
+
+.legend-labels {
+    list-style: none;
+}
+
+.legend-labels li {
+    float: left;
+    margin-right: 10px;
+}
+
+.legend-labels span {
+    border: 2px solid #000000;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+}
+
+.legend-labels .correct {
+    background-color: #00ff00;
+
+}
+
+#correct {
+    margin-left: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.legend-labels .danger {
+    background-color: #ff0000;
+    !text-align: right;
+}
+
+#danger{
+    margin-left: 10%;
+    color: white;
+    font-weight: bold;
+}
+
+.legend-labels .unattempted {
+    background-color: #ffffff;
+
+}
+
+#unattempted {
+    margin-left: 11%;
+    color: white;
+    font-weight: bold;
+}
+
+.legend-labels .current {
+    background-color: #ffff00;
+}
+
+#current{
+    position: relative;
+    margin-left: 12%;
+    color: white;
+    font-weight: bold;
+
+}
+.legend-title{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+}
+
+.clearer{
+    height: 0;
+    clear: both;
+}
+input[type=text], select {
+    width: 400px;
+    padding: 10px 20px;
+    margin: 30px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 200px;
+    height: 200px
+    color: white;
+    padding: 14px 20px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #2B95E8
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+
+}
+.input1{
+    border-radius: 5px;
+    height: 200px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.question{
+  position: relative;
+  margin: auto;
+    width: 600px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  font-family: Sans-Serif;
+font-weight: bold;
+  background-color: black;
+  color:yellow;
+}

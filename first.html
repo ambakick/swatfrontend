@@ -1,0 +1,186 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="first.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="/node_modules/sweetalert2/dist/sweetalert2.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <!-- Main Div -->
+        <div id="left">
+            <div id="table-div">
+                <table border="1" width="500" height="500" class="board" id="board">
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class='my-legend'>
+                <div class='legend-title'>Livezones</div>
+                <div class='legend-scale'>
+                    <ul class='legend-labels'>
+                        <li id='correct'><span class='correct'></span>Correct</li>
+                        <li id='danger'><span class='danger'></span>Danger</li>
+                        <li id='unattempted'><span class='unattempted'></span>Unattempted</li>
+                        <li id='current'><span class='current'></span>Current</li>
+                    </ul>
+                    <div class="clearer"></div>
+                </div>
+
+
+            </div>
+        </div>
+        <div id="right" class='animate'>
+            <div id="quiz" class="quiz">
+                <div id="question" class='question'>
+                  font-family: Sans-Serif;
+                    <p id="q"></p>
+                </div>
+                <div id="picture">
+                    <img src="" id="image" alt="">
+                </div>
+                <div id="answer" class='input1'>
+                    <input type="text" id="userAnswer" value="" />
+                    <input type="submit" id="Submit" placeholder="Answer" value="Submit" />
+
+                </div>
+            </div>
+            <div id="red-zone" class="red-zone" style="display:none;">
+                <div id="question-red">
+                    <p id="q-r">Enter a number in between 0 and 9 (inclusive)</p>
+                </div>
+                <div id="answer-red">
+                    <input type="text" id="randomAnswer" value="" />
+                    <input type="submit" id="Submit-red" value="Submit" />
+                </div>
+
+            </div>
+        </div>
+
+</body>
+
+<script src="/first.js"></script>
+
+</html>
